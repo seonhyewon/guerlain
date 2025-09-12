@@ -1560,6 +1560,16 @@ header .main-menu .item .contents_menu > ul > li ul li:hover a {
   .slide .text_b h2, .slide .text_b p {
     text-shadow: 1px 1px 0 #eee;
   }
+  .slide .text_w h2, .slide .text_w p {
+    text-shadow: 1px 1px 0 #401404;
+  }
+  .slide1 { 
+    background-image: url(../img/guerlain-pic22.avif);
+  }
+  .slide2 { 
+    background-image: url(../img/guerlain-pic33.jpg);
+  }
+
   .left-area {
     padding: 4em 2em;
   }
@@ -1662,6 +1672,25 @@ header .main-menu .item .contents_menu > ul > li ul li:hover a {
   }
   .coll-box2 .text-box2 {
     height: 200px;
+  }
+  .identity h3 {
+    font-size: 2.5em;
+  }
+  .spa-text h3, .service h3 {
+    font-size: 2em;
+  }
+  .identity p, .spa-text p, .service p {
+    font-size: 1.2em;
+  }
+  .left-area h3 {
+    line-height: 1.4em;
+    font-size: 1.8em;
+  }
+  .con-box h3 {
+    font-size: 1.8em;
+  }
+  .collection h3 {
+    letter-spacing: 0;
   }
 }
 
