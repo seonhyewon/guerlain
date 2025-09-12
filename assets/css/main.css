@@ -79,7 +79,8 @@ body {
 	font-family: "pretendard", sans-serif;
 	font-weight: 400; 
 	font-style: normal;
-	color: #401404; 
+	color: #401404;
+  background: #f6f5f0; 
 	}
 a {
 	text-decoration: none;
@@ -260,9 +261,7 @@ header .main-menu .item .contents_menu > ul > li ul li {
   
   
 }
-header .main-menu .item .contents_menu > ul > li ul li a {
-	
-}
+
 header .main-menu .item .contents_menu > ul > li ul li:hover a {
   color: #F19627;
 }
@@ -960,9 +959,7 @@ header .main-menu .item .contents_menu > ul > li ul li:hover a {
   padding-left: 75px;
   font-weight: 200;
 }
-.right-area {
-  /* border-left: 1px solid #F19627; */
-}
+
 .right-area .image {
   display: block;
   width: 50vw;
@@ -1031,9 +1028,7 @@ header .main-menu .item .contents_menu > ul > li ul li:hover a {
 
  /* 미디어쿼리 */
  @media screen and (max-width: 1660px){
-  header .main-menu .item .contents_menu {
-    
-  }
+ 
   header .main-menu .item .contents_menu > ul {
     justify-content: flex-start;
     padding: 2em 4em;
@@ -1670,6 +1665,7 @@ header .main-menu .item .contents_menu > ul > li ul li:hover a {
     font-size: 2em;
     line-height: 1.5em;
   }
+  
   .coll-box2 .text-box2 {
     height: 200px;
   }
@@ -1687,10 +1683,13 @@ header .main-menu .item .contents_menu > ul > li ul li:hover a {
     font-size: 1.8em;
   }
   .con-box h3 {
-    font-size: 1.8em;
+    font-size: 1.5em;
   }
   .collection h3 {
     letter-spacing: 0;
+  }
+  .left-area h2 {
+    font-size: 2.2em;
   }
 }
 
