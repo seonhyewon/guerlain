@@ -568,7 +568,7 @@ header .main-menu .item .contents_menu > ul > li ul li:hover a {
   
 }
 .coll-box2 .coll-text2 {
-  padding: 20px;
+  /* padding: 20px; */
   text-align: center;
   position: absolute;
   top: 72%;
